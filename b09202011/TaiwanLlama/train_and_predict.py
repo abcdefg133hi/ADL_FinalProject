@@ -46,6 +46,8 @@ from peft import (
     PrefixTuningConfig,
     PromptEncoderConfig, LoraConfig, PromptTuningConfig, PeftModel,
 )
+#reload(sys)
+#sys.setdefaultencoding("utf-8")
 #from trl import SFTTrainer
 #from vllm import LLM, SamplingParams
 
@@ -180,9 +182,9 @@ valid_loader = DataLoader(valid_dataset, shuffle=False, collate_fn=valid_collato
 #peft_config.init_lora_weights = False
 #print(peft_config)
 peft_config = LoraConfig(
-    lora_alpha=16,
+    lora_alpha=8,
     lora_dropout=0.1,
-    r=64,
+    r=4,
     bias="none",
     task_type="CAUSAL_LM",
 )
@@ -242,7 +244,7 @@ for step, batch in enumerate(tqdm(valid_loader)):
     predictions += [pred]
 #print("Prediction: ", predictions)
 
-with open(args.valid_file, 'r') as f:
+with open(args.valid_file, 'r', encoding='utf-8') as f:
   data = json.load(f)
 for i, entry in enumerate(predictions):
   if len(entry.split("ASSISTANT: "))>1:

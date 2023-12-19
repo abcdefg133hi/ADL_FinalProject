@@ -80,9 +80,6 @@ def parse_args():
         "--train_file", type=str, default=None, help="A csv or a json file containing the training data."
     )
     parser.add_argument(
-        "--valid_file", type=str, default=None, help="A csv or a json file containing the validation data or testing data."
-    )
-    parser.add_argument(
         "--output_file", type=str, default="output.jsonl", help="A jsonl file intended to be output."
     )
     args = parser.parse_args()
@@ -112,33 +109,17 @@ else:
 
 
 # Old
-raw_datasets = load_dataset("json", data_files={"train": args.train_file, "valid": args.valid_file} )
+raw_datasets = load_dataset("json", data_files={"train": args.train_file} )
 
 column_names = raw_datasets["train"].column_names
-#tokenizer.pad_token = tokenizer.eos_token
-#tokenizer.add_special_tokens({'pad_token': '[PAD]'})
 def prepare_train_features(examples, indices):
     inputs = get_prompt(examples['instruction'])+examples['output']
     only_inputs = get_prompt(examples['instruction'])
     answers = examples['output']
-    """
-    for question, answer in zip(examples['instruction'], examples['output']):
-        q = question
-        a = answer
-        input = get_prompt(q)+a
-        inputs.append(input)
-        answers.append(a)
-    """
     inputs = tokenizer(inputs,return_tensors=None, padding="max_length", truncation=True, max_length=256)
     only_inputs = tokenizer(only_inputs,return_tensors=None, padding="max_length", truncation=True, max_length=512)
     labels = tokenizer(answers,return_tensors=None, padding="max_length", truncation=True, max_length=256)
-    #print(labels['input_ids'])
-    #print(torch.tensor([-100]*len(inputs['input_ids'])))
     inputs['labels'] = [-100]*len(only_inputs['input_ids'])+labels['input_ids']
-    #print(inputs['input_ids'])
-    #print(inputs['labels'])
-    #inputs['labels'] = torch.cat(torch.tensor([-100]*len(inputs['input_ids'])),labels['input_ids'])
-    #inputs['labels'] = labels['input_ids']
     return inputs
 
 train_examples = raw_datasets["train"]
@@ -151,40 +132,10 @@ train_dataset = train_examples.map(
   )
 print(train_dataset)
 
-def prepare_valid_features(examples, indices):
-    inputs = get_prompt(examples['instruction'])
-    """
-    for question, answer in zip(examples['instruction'], examples['output']):
-        q = question
-        input = get_prompt(q)
-        inputs.append(input)
-    """
-    inputs = tokenizer(inputs, return_tensors="pt")
-    #inputs = tokenizer(inputs, return_tensors="pt", padding="max_length", truncation=True, max_length=256)
-    return inputs
-
-valid_examples = raw_datasets["valid"]
-
-valid_dataset = valid_examples.map(
-    prepare_valid_features,
-    with_indices=True,
-    batched=False,
-    remove_columns=column_names,
-  )
-print(valid_dataset)
 
 train_collator = DataCollatorForSeq2Seq(tokenizer, model=model, label_pad_token_id=-100)
 train_loader = DataLoader(train_dataset, shuffle=True, collate_fn=train_collator,
                                 batch_size=2, num_workers=4)
-valid_collator = default_data_collator
-valid_loader = DataLoader(valid_dataset, shuffle=False, collate_fn=valid_collator,
-                                batch_size=1, num_workers=4)
-
-#model = prepare_model_for_kbit_training(model)
-#model.to('cuda')
-#peft_config = PeftConfig.from_pretrained("gdrive/MyDrive/ADL_Homework3/")
-#peft_config.init_lora_weights = False
-#print(peft_config)
 if args.peft_path:
     peft_config = PeftConfig.from_pretrained(args.peft_path)
     model.add_adapter(peft_config)
@@ -193,9 +144,9 @@ if args.peft_path:
     model.enable_adapters()
 else:
     peft_config = LoraConfig(
-        lora_alpha=16,
+        lora_alpha=8,
         lora_dropout=0.1,
-        r=64,
+        r=4,
         bias="none",
         task_type="CAUSAL_LM",
     )
