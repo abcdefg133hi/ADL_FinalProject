@@ -25,7 +25,13 @@ python3 train_and_predict.py --train_file "train.json" --epochs 1 --output_file 
 python3 transform_to_proper_json.py --input [INPUT] -- output [OUPUT]
 ```
 
-## Train / Predict
-- To do.
+## Train
+```
+python3 train.py --peft_path [None / Your Adapter Path] --train_file "train.json" --epochs 1 --save_path [Your Adapter Path]
+```
 
+## Predict
+```
+python3 predict.py --peft_path [None / Your Adapter Path] --valid_file "valid.json" --output_file "output.json"
+```
 
