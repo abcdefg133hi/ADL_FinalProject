@@ -1291,313 +1291,308 @@
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "A 的妻子 B 懷疑 A 有外遇，乃有償委託甲在 A 經常使用的汽車上裝設 GPS，藉此蒐集 A 之行蹤。",
+	"output": "判處違反刑法第 315 條之 1 的無故以電磁紀錄竊錄他人非公開活動之犯罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "悟空、唐三藏兩人組成扒竊集團在西門町扒走觀光客 A 的皮夾。",
+	"output": "判處悟空、唐三藏違反刑法加重竊盜罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "大名在深夜潛入大陸家偷iphone。",
+	"output": "判處大名違反刑法加重竊盜罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "甲為家電雜貨公司倉庫庫藏管理人員，因急需用錢，夥同友人乙一同將甫進貨的電器，由乙用貨車載走，一同在網路上折價轉賣，換取現金週轉。",
+	"output": "判處甲乙違反刑法第 336 條業務侵占罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "琴琴將他偷竊來的金飾轉賣給悟空，且悟空知情。",
+	"output": "判處悟空違反刑法髒物罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "某甲基於強盜之意思，非法控制被害人之行動自由。",
+	"output": "判處某甲違反刑法第 302 條剝奪他人行動自由罪之吸收犯。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "阿木損壞火車軌道因而致火車傾覆，但未造成人員傷亡。",
+	"output": "判處阿木依刑法第 184 條第 2 項之加重結果犯處。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "某甲將某乙偽造之警察特考及格證書影印後，行使該影印本。",
+	"output": "判處某甲違反刑法第212條之偽造特種文書罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "洛林意圖盈利，流竄各地多次提供賭博場所聚眾賭博。",
+	"output": "判處洛林違反刑法第268條之聚眾賭博罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "Alen在多數人面前謾罵Jenny為妓女。",
+	"output": "判處Alen違反刑法第309條第1項公然侮辱罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "小小兵走在路上滑手機。",
+	"output": "判處小小兵無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "我今天出門忘了刷牙。",
+	"output": "判處你無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "塔先生在騎機車送郵件的途中，不慎撞死劉老太太。",
+	"output": "判處塔先生違反刑法第276條業務過失致死罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "柳柳意圖勒贖而擄走美美，並將其綑綁在山上空屋。",
+	"output": "判處柳柳違反刑法第347條第1項擄人勒贖罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "外國人士John偷渡來台為警查獲，並收容於收容所內。",
+	"output": "判處John違反刑法第161條脫逃罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "小明誤認為小花的雨傘是自己的雨傘而使用。",
+	"output": "判處小明無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "大嘴獸從椰林大道一開始走到結尾。",
+	"output": "判處大嘴獸無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "某警察局分局長甲與其經營畫廊之妻乙因投資股市慘賠，兩人遂共同商 議，決定收取甲轄區內非法賭博電玩業者丙之「獻金」，由丙至乙之畫 廊內，隨意挑選兩幅不知名畫作，然後交付乙「價金」三百萬元，以確 保其電動玩具店「永續經營」。",
+	"output": "判處甲、乙違反刑法第一二二條第一項違背職務受賄罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "甲進入郵局內，見乙女從皮包中拿出十萬元正準備存入郵局。當乙一邊 在櫃臺上填寫存款單，一邊將十萬元壓放其左手腕下時，甲從旁靜靜地 靠過去，突然間伸出手來用力一抓，將該十萬元瞬間抽離乙之手腕下， 然後拔腿就跑。",
+	"output": "判處甲違反刑法第325條第一項普通搶奪罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "某大廈管理委員會主委甲將該大廈監視器所攝錄的某已婚政治人物乙男 與該大廈住戶單身女郎丙在該大廈出雙入對的數位錄影資料拷貝成光碟片一份，而後高價售予「芭樂日報」以牟利。",
+	"output": "判處甲違反刑法第359條無故取得電磁紀錄罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "王姓研究生偽造台北捷運公司悠遊卡。",
+	"output": "判處王性研究生違反刑法第201條第一項偽造信用卡等電磁紀錄物罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "阿美撿到小華的某研究所畢業證書，將該證書影印後，換上自己的相片，並使用該證書應娉工作。",
+	"output": "判處阿美違反刑法侵占遺失物罪以及行使偽造特種文書罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "我宣稱在捷運上放置炸彈，但實際上並沒有。",
+	"output": "判處你違反刑法恐嚇危害安全罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "甲意圖供行使之用，於桃園縣偽造大陸地區之人民幣而為警查獲。",
+	"output": "判處甲違反刑法第201條偽造有價證券罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "債權人甲因多次催促債務人乙還債未果，某日聽聞乙即將聲請破產，為意圖迫使乙還債，竟將乙之所有物強行搬走抵債。",
+	"output": "判處甲違反刑法第304條強制罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "甲打電話給乙，謊稱乙之在外就讀高職之子 A 落在其手中，同時又由同夥丙偽裝成 A 的聲音求救以取信於乙;然後甲要求乙至銀行匯款新臺幣十萬 元給他，否則要將 A 斷手斷腳。",
+	"output": "判處甲違反刑法恐嚇取財罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "連連在大華睡覺的時候，偷偷將其口袋的1000元拿走。",
+	"output": "判處連連違反刑法竊盜罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": " 甲持槍潛進乙宅，看見乙正躺在床上，甲認為乙正在午睡，於是對乙的 要害開槍。",
+	"output": "判處甲違反刑法殺人罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "小白開車從台北開到高雄。",
+	"output": "判處小白無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "柯P上台發表演講。",
+	"output": "判處柯P無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "甲看見乙正專心閱報，且見乙將一只黑色的旅行箱置放於腳旁，甲於是 請不知情的旅館服務生丙將這黑色旅行箱送上甲的後行李車箱內，隨後即開 車離開現場。",
+	"output": "判處甲違反刑法竊盜罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "甲憤恨乙的橫刀奪愛，因而想置乙於死地，但沒有膽量殺害乙，甲明知 自己不勝酒力，仍藉酒壯膽，殺害乙。",
+	"output": "判處甲違反刑法殺人罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "小智為某大學在校學生，因學期考試成績不佳，唯恐成績不及格而被當， 乃破解學校電腦之保護措施，入侵學校教務處網站而竄改成績",
+	"output": "判處小智違反刑法妨害電腦使用罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "小六為了強取小七之財物，持刀將小七殺死後，再將小七所攜帶之金錢取走。",
+	"output": "判處小六違反刑法強盜罪及殺人罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "皮卡丘在上班開車時，不慎撞傷卡皮小姐，造成卡皮小姐多數骨折擦挫傷。",
+	"output": "判處皮卡丘違反刑法業務過失傷害罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "大雄用電話誘拐林老先生至ATM匯100000元給他。",
+	"output": "判處大雄違反刑法詐欺罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "先生甲與太太乙共同謀議殺死乙剛生下之畸形嬰兒，由甲動手將該嬰兒悶死。",
+	"output": "判處甲違反刑法殺人罪，乙為共犯。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "甲深夜在環市道路上超速駕車，於某轉彎處，因車速太快煞車不及，不慎撞上停放在路旁的汽車，造成兩車車體嚴重凹陷。甲見四下無人，為免負擔法律責任，趕緊掉頭疾駛離去。",
+	"output": "判處甲違反刑法肇事逃逸罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "甫滿十八歲之甲女威脅其母親乙，如果乙一再反對她與丙男交往，將死 給乙看。",
+	"output": "判處甲女違反刑法恐嚇危害安全罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "林小姐以強暴手段強行與鄰家十三歲之男童乙發生性行為",
+	"output": "判處林小姐違反刑法第222條加重強制性交罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "甲被公司裁員，至餐廳用餐後，未付錢即藉機離開。",
+	"output": "判處甲違反刑法詐欺罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "阿伯搭計程車遠逃，至某偏遠處後隨即對司機乙出言威脅，不但拒付車資，且喝令乙交出身上所 有現金後離去。",
+	"output": "判處阿伯違反刑法第346條第2項恐嚇取財既遂罪"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "羅先生攜帶假手槍，冒充真槍以威脅事主、奪取財物。",
+	"output": "判處羅先生違反刑法強盜罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "王先生在車上吸食安非他命。",
+	"output": "判處王先生違反刑法吸食毒品罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "悟空今天在唐三藏旁邊大叫「我是孫悟空」。",
+	"output": "判處悟空無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "劉老師今天帶著雞排來教課。",
+	"output": "判處劉老師無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "愛運動的小明今天不運動了。",
+	"output": "判處小明無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "小明拍小花的肩膀説：「謝謝你今天幫我」。",
+	"output": "判處小明無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "風華一次交10個女朋友，但每個女朋友都不知道彼此的存在。",
+	"output": "判處風華無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "管校長因為對校內的教務長處理事情態度有所不滿，因此合法撤換教務長。",
+	"output": "判處管校長無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "曾同學考微積分考不及格。",
+	"output": "判處曾同學無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "小明與小滑放學後相約在圖書館玩傳說對決，他們玩的聲音很大聲。",
+	"output": "判處小明與小滑無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "ChatGPT今天提供錯誤的訊息給我。",
+	"output": "判處ChatGPT無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "小明的爸爸帶著小明去看跨年煙火。",
+	"output": "判處小明的爸爸無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "我與同學今天在課堂上吵架，然其中沒有任何不雅字眼。",
+	"output": "判處你與你同學無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "高老師上課的時候把同學趕出教室。",
+	"output": "判處高老師無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "天天因為找不到工作，所以就索性開始環島。",
+	"output": "判處天天無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "小明很喜歡手搖飲，平均一天可以喝10杯。",
+	"output": "判處小明無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "小天在上課時不專心上課，反而在看山道猴子的一生。",
+	"output": "判處小天無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "劉小姐與王先生是班對，他們每天都在曬恩愛。",
+	"output": "判處劉小姐與王先生無罪。"
     },
     {
 	"kind": "刑法",
-	"instruction": "",
-	"output": ""
-    },
-    {
-	"kind": "刑法",
-	"instruction": "",
-	"output": ""
+	"instruction": "高立法委員愛唱歌。",
+	"output": "判處高立法委員無罪。"
     },
     {
 	"kind": "刑法",
