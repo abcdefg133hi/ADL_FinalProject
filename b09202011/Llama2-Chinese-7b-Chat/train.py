@@ -108,6 +108,7 @@ else:
     model = AutoModelForCausalLM.from_pretrained("yentinglin/Taiwan-LLM-7B-v2.0-chat", revision="5073b2bbc1aa5519acdc865e99832857ef47f7c9",torch_dtype=torch.bfloat16,quantization_config=bnb_config)
 
 
+tokenizer.pad_token = tokenizer.eos_token
 # Old
 raw_datasets = load_dataset("json", data_files={"train": args.train_file} )
 
