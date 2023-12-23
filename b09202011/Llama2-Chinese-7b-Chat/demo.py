@@ -46,6 +46,9 @@ from peft import (
     PrefixTuningConfig,
     PromptEncoderConfig, LoraConfig, PromptTuningConfig, PeftModel,
 )
+from text_generation import Client
+endpoint_url = os.environ.get("ENDPOINT_URL", "http://127.0.0.1:8080")
+client = Client(endpoint_url, timeout=120)
 #from trl import SFTTrainer
 #from vllm import LLM, SamplingParams
 
