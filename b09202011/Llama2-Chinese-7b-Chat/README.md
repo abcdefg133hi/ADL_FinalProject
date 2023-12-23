@@ -40,3 +40,8 @@ python3 predict.py --peft_path [Your Adapter Path] --valid_file "valid.json" --o
 ```
 python3 demo.py --peft_path [Your Adapter Path]
 ```
+
+# Model Version
+- ChineseLlama\_370\_not\_revise: Training with 370 training data without unified output format.
+- ChineseLlama\_370\_revise: Training with 370 training data without unified output format.
+
