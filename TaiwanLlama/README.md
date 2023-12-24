@@ -23,7 +23,7 @@ python3 train.py --train_file "train.json" --epochs 3 --save_path [Your Adapter 
 python3 predict.py --peft_path "TaiwanLlama_final" --valid_file "test.json" --output_file "output.json"
 ```
 
-## Download Adapter (Under Test)
+## Download Adapter
 ```
 chmod 744 download.sh
 ./download.sh
