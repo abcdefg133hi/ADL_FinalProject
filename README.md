@@ -1,8 +1,9 @@
 # AI Judge using Large Language Model
 
-## Two AI Judges trained using QLoRA
+## Three AI Judges trained using QLoRA
 - Knowledgeable Taiwanese Judge: './TaiwanLlama'
 - Knowledgeable Chinese   Judge: './Llama2-Chinese-7b-Chat'
+- Knowledgeable Taiwanese Judge 2: './TaiwanLlama'
 
 
 ## Sources of data:
