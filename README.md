@@ -3,7 +3,7 @@
 ## Three AI Judges trained using QLoRA
 - Knowledgeable Taiwanese Judge: './TaiwanLlama'
 - Knowledgeable Chinese   Judge: './Llama2-Chinese-7b-Chat'
-- Knowledgeable Taiwanese Judge 2: './TaiwanLlama'
+- Knowledgeable Taiwanese Judge 2: './TaiwanLlama_bad'
 
 
 ## Sources of data:
