@@ -12,3 +12,9 @@
 - 公務人員特種考試司法人員考試、移民行政考試、調查局、海岸巡防人員考試：刑法、刑法概要
 URL:https://www.public.com.tw/exampoint/2022-judicial
 - 無罪：Created by human: About 50 data.
+
+## Evaluate
+We adopted human evaluation on the testing data to evaluate the preformance of each judges. Two stages evaluations are provided.
+- Stage 1: 'Correctness'. The score here is based on the correctness of predicted crime name.
+- Stage 2: 'Celebrity Traits'. The score here is based on the voting in our survey, which includes the prediction in testing data for every judges.
+
